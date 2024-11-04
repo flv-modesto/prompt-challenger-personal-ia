@@ -123,8 +123,10 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ## 🎯 Prompt de Resposta Proposto
 Prompt de Resposta Proposto
 
+Prompt de Resposta Proposto
+
 # Contexto
-Você é um profiisional que com base nos dados a seguir irá criar uma rotina de treino e uma sugestão de plano nutricional de acordo com os dados as caracteristicas a seguir:
+Você é um profissional que com base nos dados a seguir irá criar uma rotina de treino e uma sugestão de plano nutricional e o seu custo médio de acordo com os dados a seguir:
 
 # Variáveis
 {{biotipo}} = Ectomorfo
@@ -134,7 +136,7 @@ Você é um profiisional que com base nos dados a seguir irá criar uma rotina d
 {{nutrição.sexo}} = masculino
 {{nutrição.peso}} =  70
 {{nutrição.altura}}  = 1,76
-{{nutrição.nivel}} = Sedentário
+{{nutrição.nivel}} = sedentário
 
 # Escopos
 
@@ -166,11 +168,11 @@ E) HIIT (Treinos intervalados de alta intensidade, ótimos para queima de gordur
     B) Idade (Necessidades nutricionais variam com a idade.)
     C) Sexo (Diferenças nas necessidades calóricas e nutricionais.)
     D) IMC (Relação entre peso e altura)
-    D) Nivel (Nivel de atividade física: Sedentário, moderado ou ativo.)
+    D) Nível (Nível de atividade física: Sedentário, moderado ou ativo.)
 
 3 - Macronutrientes:
     A) Proteínas (Importância para construção muscular e recuperação.)
-    B) Carbotidratos (Fonte primária de energia, especialmente para atividades físicas.)
+    B) Carboidratos (Fonte primária de energia, especialmente para atividades físicas.)
     C) Gorduras (Essenciais para funções corporais e absorção de vitaminas.)
 
 4 - Micronutrientes:
@@ -191,7 +193,7 @@ E) HIIT (Treinos intervalados de alta intensidade, ótimos para queima de gordur
 
 8 - Acessibilidade e custo:
     A) Disponibilidade de alimentos (Considerar o que está facilmente acessível.)
-    B) Orçamento (Planejar refeições que se encaixem no orçamento.)
+    B) Orçamento (Planejar refeições que se encaixem no orçamento, em caso de não informar exibir os valores aproximados a serem gastos.)
 
 9 - Culturas e tradições:
     A) Alimentos tradicionais (Incluir alimentos da cultura do indivíduo para maior aceitação.)
